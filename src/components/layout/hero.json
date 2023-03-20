@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_heroes",
+  "info": {
+    "displayName": "hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.call-to-action",
+      "required": true
+    }
+  }
+}

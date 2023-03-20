@@ -44,6 +44,11 @@
       "relation": "oneToMany",
       "target": "api::vehicle.vehicle",
       "mappedBy": "model"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::model.model"
     }
   }
 }
