@@ -60,6 +60,17 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "seo": {
+      "displayName": "seoinfo",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "seo.seoinfo"
     }
   }
 }
