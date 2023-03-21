@@ -29,6 +29,11 @@
       "type": "component",
       "repeatable": true,
       "component": "layout.featured-product-previews"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seoinfo"
     }
   }
 }

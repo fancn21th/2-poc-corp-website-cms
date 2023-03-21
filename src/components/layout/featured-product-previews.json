@@ -1,13 +1,14 @@
 {
   "collectionName": "components_layout_featured_product_previews",
   "info": {
-    "displayName": "FeaturedProductPreviews"
+    "displayName": "FeaturedProductPreviews",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "products": {
+    "product": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::featured-product.featured-product"
     }
   }
