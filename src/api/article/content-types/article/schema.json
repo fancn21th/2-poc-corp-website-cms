@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,14 +17,19 @@
       "required": true,
       "unique": true
     },
-    "content": {
-      "type": "richtext",
-      "required": true
-    },
     "seo": {
       "type": "component",
       "repeatable": true,
       "component": "seo.seoinfo"
+    },
+    "ckcontent": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }

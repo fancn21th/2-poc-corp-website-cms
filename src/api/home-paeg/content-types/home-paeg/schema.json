@@ -34,13 +34,6 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seoinfo"
-    },
-    "logo": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }
